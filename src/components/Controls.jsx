@@ -1,10 +1,10 @@
-import React from "react"
-import { ChevronDoubleLeft, Close, Refresh } from "./icons"
-import { actions, useStore } from "../utils"
+import React from "react";
+import { ChevronDoubleLeft, Close, Refresh } from "./icons";
+import { actions, useStore } from "../utils";
 
 const Controls = () => {
-  const { clicks } = useStore()
-  const help = "click a button... "
+  const { clicks } = useStore();
+  const help = "click a button... ";
 
   return (
     <div className="mb-10px mt-3 flex items-center">
@@ -13,7 +13,7 @@ const Controls = () => {
         title="Refresh"
         className="ds1-button data-button bg-clrs-blue"
         onClick={() => {
-          actions.refresh()
+          actions.refresh();
         }}
       >
         <Refresh />
@@ -23,7 +23,7 @@ const Controls = () => {
         title="Reset"
         className="ds1-button data-button bg-clrs-red"
         onClick={() => {
-          actions.reset()
+          actions.reset();
         }}
       >
         <Close />
@@ -36,8 +36,8 @@ const Controls = () => {
         </span>
       </span>
     </div>
-  )
-}
+  );
+};
 
-export { Controls }
-export default Controls
+export { Controls };
+export default Controls;

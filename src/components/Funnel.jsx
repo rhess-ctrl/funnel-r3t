@@ -1,8 +1,8 @@
-import React from "react"
-import { Bar } from "./Bar"
-import { Masks } from "./Masks"
-import { Trapezoid } from "./Trapezoid"
-import { funnelDefs, useStore } from "../utils"
+import React from "react";
+import { Bar } from "./Bar";
+import { Masks } from "./Masks";
+import { Trapezoid } from "./Trapezoid";
+import { funnelDefs, useStore } from "../utils";
 
 const createFunnel = ({ id, height, width, x, y, drop }) => {
   const obj = {
@@ -18,20 +18,20 @@ const createFunnel = ({ id, height, width, x, y, drop }) => {
     },${drop + 0.5}`,
     matrix: `matrix(1,0,0,1,${x},${y})`,
     points: `0,0,0,${height},${width},${height - drop},${width},${drop}`,
-  }
-  return obj
-}
+  };
+  return obj;
+};
 
 const generateBars = () => {
   return funnelDefs.map((item) => {
-    return createFunnel(item)
-  })
-}
+    return createFunnel(item);
+  });
+};
 
 const Funnel = () => {
-  const { pick, values } = useStore()
-  const bars = generateBars()
-  const stroke = "currentColor"
+  const { pick, values } = useStore();
+  const bars = generateBars();
+  const stroke = "currentColor";
 
   return (
     <div className="funnel">
@@ -55,12 +55,12 @@ const Funnel = () => {
                 values={values}
               />
             </g>
-          )
+          );
         })}
       </svg>
     </div>
-  )
-}
+  );
+};
 
-export { Funnel }
-export default Funnel
+export { Funnel };
+export default Funnel;

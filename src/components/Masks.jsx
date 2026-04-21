@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Masks = ({ bars }) => {
   return (
@@ -8,11 +8,11 @@ const Masks = ({ bars }) => {
           <mask key={`mask-${item.name}`} id={item.maskId}>
             <polygon points={item.mask} fill="#ffffff" />
           </mask>
-        )
+        );
       })}
     </defs>
-  )
-}
+  );
+};
 
-export { Masks }
-export default Masks
+export { Masks };
+export default Masks;

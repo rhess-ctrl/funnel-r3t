@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const ChevronDoubleLeft = ({ hex = "currentColor", size = 24 }) => {
   return (
@@ -13,8 +13,8 @@ const ChevronDoubleLeft = ({ hex = "currentColor", size = 24 }) => {
       </g>
       <path d="M0 0h24v24H0z" fill="none" />
     </svg>
-  )
-}
+  );
+};
 
-export { ChevronDoubleLeft }
-export default ChevronDoubleLeft
+export { ChevronDoubleLeft };
+export default ChevronDoubleLeft;

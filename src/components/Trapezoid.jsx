@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
 const Trapezoid = ({ item, stroke }) => {
-  return <polygon points={item.points} fill="#ffffff" stroke={stroke} />
-}
+  return <polygon points={item.points} fill="#ffffff" stroke={stroke} />;
+};
 
-export { Trapezoid }
-export default Trapezoid
+export { Trapezoid };
+export default Trapezoid;

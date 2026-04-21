@@ -1,9 +1,9 @@
-import React from "react"
-import { useStore } from "../utils"
-import { TwLabel } from "./TwLabel"
+import React from "react";
+import { useStore } from "../utils";
+import { TwLabel } from "./TwLabel";
 
 const Values = () => {
-  const { clicks, pick, values } = useStore()
+  const { clicks, pick, values } = useStore();
 
   return (
     <div className="flex">
@@ -21,8 +21,8 @@ const Values = () => {
       </div>
       <TwLabel />
     </div>
-  )
-}
+  );
+};
 
-export { Values }
-export default Values
+export { Values };
+export default Values;

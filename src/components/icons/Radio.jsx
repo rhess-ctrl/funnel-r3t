@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Radio = ({ hex = "currentColor", selected = false, size = 24 }) => {
   return (
@@ -17,8 +17,8 @@ const Radio = ({ hex = "currentColor", selected = false, size = 24 }) => {
       </g>
       <path d="M0 0h24v24H0z" fill="none" />
     </svg>
-  )
-}
+  );
+};
 
-export { Radio }
-export default Radio
+export { Radio };
+export default Radio;

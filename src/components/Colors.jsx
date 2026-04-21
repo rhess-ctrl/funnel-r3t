@@ -1,10 +1,10 @@
-import React from "react"
-import { ColorPick } from "./ColorPick"
-import { actions, useStore } from "../utils"
-import { colorNames } from "../utils"
+import React from "react";
+import { ColorPick } from "./ColorPick";
+import { actions, useStore } from "../utils";
+import { colorNames } from "../utils";
 
 const Colors = () => {
-  const { pick } = useStore()
+  const { pick } = useStore();
 
   return (
     <div className="flex flex-wrap" role="radiogroup">
@@ -17,8 +17,8 @@ const Colors = () => {
         />
       ))}
     </div>
-  )
-}
+  );
+};
 
-export { Colors }
-export default Colors
+export { Colors };
+export default Colors;

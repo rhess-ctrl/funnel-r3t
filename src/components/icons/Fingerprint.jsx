@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Fingerprint = ({ hex = "currentColor", size = 24 }) => {
   return (
@@ -48,8 +48,8 @@ const Fingerprint = ({ hex = "currentColor", size = 24 }) => {
       </g>
       <path d="M0 0h24v24H0z" fill="none" />
     </svg>
-  )
-}
+  );
+};
 
-export { Fingerprint }
-export default Fingerprint
+export { Fingerprint };
+export default Fingerprint;

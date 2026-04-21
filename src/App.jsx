@@ -1,5 +1,5 @@
-import React from "react"
-import { Colors, Controls, Eswat2, Funnel, Values } from "./components"
+import React from "react";
+import { Colors, Controls, Eswat2, Funnel, Values } from "./components";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <hr className="ml-0 mr-0" />
       <Values />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Paw = ({ hex = "currentColor", size = 24 }) => {
   return (
@@ -27,8 +27,8 @@ const Paw = ({ hex = "currentColor", size = 24 }) => {
       </g>
       <path d="M0 0h24v24H0z" fill="none" />
     </svg>
-  )
-}
+  );
+};
 
-export { Paw }
-export default Paw
+export { Paw };
+export default Paw;

@@ -1,8 +1,8 @@
-import React from "react"
-import { Fingerprint } from "./icons"
+import React from "react";
+import { Fingerprint } from "./icons";
 
-const url = "https://eswat2.github.io"
-const who = "eswat2"
+const url = "https://eswat2.github.io";
+const who = "eswat2";
 
 const Eswat2 = () => {
   return (
@@ -14,8 +14,8 @@ const Eswat2 = () => {
     >
       <Fingerprint />
     </a>
-  )
-}
+  );
+};
 
-export { Eswat2 }
-export default Eswat2
+export { Eswat2 };
+export default Eswat2;
